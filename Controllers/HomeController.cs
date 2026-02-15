@@ -16,6 +16,10 @@ namespace TestAppNetGitHub.Controllers
             return View();
         }
 
+        public IActionResult Suscripcion()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
